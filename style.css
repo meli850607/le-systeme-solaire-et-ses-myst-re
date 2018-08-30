@@ -7,7 +7,8 @@
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-  
+  background-attachment: fixed;
+
 }
 
 .container{
@@ -47,4 +48,23 @@ p{
   margin-top: 40px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.lunes p{
+  color: rgb(96, 126, 214);
+}
+
+.lune{
+  font-size: 30px;
+  text-align: center;
+}
+
+.img{
+  margin-top: 30px;
+}
+
+.footer{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 50px;
 }

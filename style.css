@@ -61,10 +61,20 @@ p{
 
 .img{
   margin-top: 30px;
+  opacity: 0.5;
+}
+.img img{
+  border-radius: 50px!important;
+}
+
+.img:hover{
+  transition: 2s;
+  opacity: 1;
 }
 
 .footer{
   text-align: center;
   font-size: 15px;
   margin-top: 50px;
+
 }
